@@ -1,6 +1,6 @@
 {
 	"name": "react-tiktok-helper",
-	"version": "0.1.2",
+	"version": "0.1.3",
 	"description": "React tiktok helper",
 	"source": "src/index.js",
 	"main": "dist/index.js",
@@ -17,6 +17,10 @@
 		"pixel",
 		"tiktok pixel"
 	],
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/firmnardians/react-tiktok-helper"
+	},
 	"author": "firmnardians",
 	"license": "MIT",
 	"devDependencies": {
