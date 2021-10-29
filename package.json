@@ -1,10 +1,14 @@
 {
 	"name": "react-tiktok-helper",
-	"version": "0.1.1",
+	"version": "0.1.2",
 	"description": "React tiktok helper",
 	"source": "src/index.js",
 	"main": "dist/index.js",
 	"module": "dist/index.js",
+	"files": [
+		"dist",
+		"README.md"
+	],
 	"scripts": {
 		"build": "rm -rf dist && NODE_ENV=production babel src --out-dir dist --copy-files"
 	},
@@ -14,7 +18,7 @@
 		"tiktok pixel"
 	],
 	"author": "firmnardians",
-	"license": "ISC",
+	"license": "MIT",
 	"devDependencies": {
 		"@babel/cli": "^7.15.7",
 		"@babel/core": "^7.15.8",
