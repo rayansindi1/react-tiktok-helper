@@ -40,7 +40,8 @@ const tiktok = function () {
   const event = function event() {
     let event = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : '';
     let params = arguments.length > 1 && arguments[1] !== undefined ? arguments[1] : {};
-    ttq.track(event, params);
+    let eventData = arguments.length > 2 && arguments[2] !== undefined ? arguments[2] : {};
+    ttq.track(event, params, eventData);
   };
 
   return {
